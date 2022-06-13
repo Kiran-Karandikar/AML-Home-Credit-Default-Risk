@@ -96,7 +96,7 @@ As part of the data download comes a  Data Dictionary. It named `HomeCredit_colu
 > Designed with passion as part of the curriculum for the course CSCI P 556 - Applied Machine Learning in the spring of 2022 in four phases.
 ![Canvas Course](assets/MachineLearningHeader.jpg)
 
-#### [Final Phase Preview](www.google.com)
+#### [Final Phase Preview](https://kiran-karandikar.github.io/AML-Home-Credit-Default-Risk/)
 
 #### Project Timeline:
 
