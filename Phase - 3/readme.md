@@ -1,47 +1,50 @@
-# Phase 1
+# Phase 3
 
 ---
 
-One of the most fundamental and necessary parts of Machine Learning is data
-analysis. Building Machine Learning Models is useless unless you comprehend the
-data. We understand that Feature Engineering is at the heart of every Machine
-Learning model, and that if we can't make sense of the data, we won't be able to
-build the explanatory features that our models will need for categorization.
-Exploratory Data Analysis is the process of analyzing data to uncover patterns,
-behaviors, connections, and anomalies, as well as testing hypotheses and
-generating summaries using statistical and graphical tools.
+In PyTorch, create a multi-layer perception (MLP) model for loan default
+classification; using Tensorboard to visualize training outcomes in real time
 
 ## Introduction:
 
 ---
 
-***In this first phase of the research, we downloaded data from Kaggle. On the
-given datasets, a few EDA approaches are used. This has been useful in
-determining relevant attributes and determining missing values for each
-attribute. We did basic feature engineering by exploiting EDA findings.***
+***Neural Network Taxonomy: Three Layers ( 157 input, 64 hidden and 1 output) It
+employs the sigmoid activation function and There are three layers to regression (
+157 input, 64 hidden and 1 output) The activation function ReLU is utilized.***
 
-## Transformers and feature engineering
+Hyper parameters:
+- Loss function: Cross Entropy Loss (BCEwithLogitsLoss())
+- Learning Rate: 0.001
+- Optimizer: Adam
+- Classification : 
+  - Test CXE Loss: 0.29 |Accuracy - 92.0
+  - Test CSE+MSE = 8.66
 
-All the category features for Feature Engineering were encoded in a single
-pass. Pipelines are constructed for all secondary tables. Using a pipeline, the
-aggregated data is integrated in the main table. The numerical and categorical
-pipelines are specified as illustrated.
-
-![pipeline](../assets/pipeline.png)
+![pipeline](../assets/tensorboard_results.png)
 
 ## Discussion
 
 ---
 
-We tried and obtained some deeper understanding about the datasets and their
-relationships throughout this phase. The EDA approach has been beneficial in
-learning more about the correlations between various aspects. We created a basic
-model in which some features are used after going through the pipeline.
+The project's purpose is to find those who can repay their loans. Our Machine
+Learning model can predict whether an individual should be granted a loan
+based on the applicant's prior applications, credit bureau history, payment
+installments, and other significant variables such as sources of income, number
+of family members, dependents, and so on. For target value 1, all machine
+learning models trained with skewed data performed poorly. The model was
+retrained using resampled data, as indicated by the confusion matrices, and
+predictions for Target value 1 improved considerably. Because we employed a
+lesser sample size to train the Deep Learning Model, it did not outperform
+traditional machine learning models.
 
-## Phase 2 Strategy
+## Conclusion
 
 ---
 
-We will concentrate on feature engineering, such as developing RFM features (
-Recency, Frequency, and Monetary value) and establishing a multi-layer
-perception (MLP) model in PyTorch.
+In this phase 3, we used PyTorch to develop an MLP to decide whether the
+candidate is loan eligible. With a test loss of 0.29, we achieved 92 percent
+test accuracy. In addition, we built a multi-headed load default system that
+combines both prior models' loss functions and designed an MLP model for
+regression. Subsequently, we developed a pipeline that integrates all three
+models.

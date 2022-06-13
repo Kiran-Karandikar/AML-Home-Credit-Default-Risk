@@ -1,47 +1,49 @@
-# Phase 1
+# Phase 2
 
 ---
 
-One of the most fundamental and necessary parts of Machine Learning is data
-analysis. Building Machine Learning Models is useless unless you comprehend the
-data. We understand that Feature Engineering is at the heart of every Machine
-Learning model, and that if we can't make sense of the data, we won't be able to
-build the explanatory features that our models will need for categorization.
-Exploratory Data Analysis is the process of analyzing data to uncover patterns,
-behaviors, connections, and anomalies, as well as testing hypotheses and
-generating summaries using statistical and graphical tools.
+In Phase 1 of our HCDR project, we developed a baseline model that was
+insufficiently accurate for prediction. So, in phase 2, we refined our model by
+employing a variety of strategies.
 
 ## Introduction:
 
 ---
 
-***In this first phase of the research, we downloaded data from Kaggle. On the
-given datasets, a few EDA approaches are used. This has been useful in
-determining relevant attributes and determining missing values for each
-attribute. We did basic feature engineering by exploiting EDA findings.***
+***We concentrated on feature engineering and
+hyperparameter optimization throughout Phase 2 of our project. In addition, we
+have focused on feature selection, feature importance analysis, and ensemble
+approaches.***
 
-## Transformers and feature engineering
+First, we performed data aggregation by building pipelines for all
+secondary tables. Using a pipeline, the aggregated data is integrated into the
+main table. This procedure includes imputation, scaling, and normalization. For
+feature transformation, a class base feature transformer is employed.
 
-All the category features for Feature Engineering were encoded in a single
-pass. Pipelines are constructed for all secondary tables. Using a pipeline, the
-aggregated data is integrated in the main table. The numerical and categorical
-pipelines are specified as illustrated.
+The num pipeline and cat pipeline are combined using FeatureUnion. A series of
+experiments are carried out in order to identify the most important features.
+Finally, we used gridsearch to tune our models' hyper parameters. In this step,
+we used decision trees, random forests, and XGBoost models. Gridsearch on model
+parameters determines the optimal model.
 
-![pipeline](../assets/pipeline.png)
+![pipeline](../assets/ml-pipeline.png)
 
 ## Discussion
 
 ---
 
-We tried and obtained some deeper understanding about the datasets and their
-relationships throughout this phase. The EDA approach has been beneficial in
-learning more about the correlations between various aspects. We created a basic
-model in which some features are used after going through the pipeline.
+During this phase, we worked on feature engineering and hyperparameter tuning.
+We also tried Decision Tree, and Random Forest, and XGBoost to boost our scores. The
+best model we have is XGBoost, which has a train accuracy of 0.8771 and a test
+accuracy of 0.8132 after resampling.
 
-## Phase 2 Strategy
+## Phase 3 Strategy
 
 ---
 
-We will concentrate on feature engineering, such as developing RFM features (
-Recency, Frequency, and Monetary value) and establishing a multi-layer
-perception (MLP) model in PyTorch.
++ Creating an MLP in Pytorch for default loan classification. 
++ Creating a regression model in Pytorch with at least one target value corresponding to,
+say, the length of time or percentage of repayment period before the borrower
+defaults.
++ Create a multi-headed load default system in PyTorch utilizing the OOP API and
+a combined loss function.
