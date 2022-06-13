@@ -1,3 +1,13 @@
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+---
+
+
 # Home-Credit-Default-Risk
 
 Predicting how capable each applicant is of repaying a loan (**[Kaggle Challenge](https://www.kaggle.com/c/home-credit-default-risk)**).
@@ -83,8 +93,10 @@ As part of the data download comes a  Data Dictionary. It named `HomeCredit_colu
 
 ### Extras
 
-> Designed with passion as part of the curriculum for the course CSCIP 556 - Applied Machine Learning in the spring of 2022 in four phases.
+> Designed with passion as part of the curriculum for the course CSCI P 556 - Applied Machine Learning in the spring of 2022 in four phases.
 ![Canvas Course](assets/MachineLearningHeader.jpg)
+
+#### [Final Phase Preview](www.google.com)
 
 #### Project Timeline:
 
@@ -96,7 +108,45 @@ As part of the data download comes a  Data Dictionary. It named `HomeCredit_colu
 - [Yashwitha Reddy Pondugala](mailto:ypondug@iu.edu)
 - [Rahul Gomathi Sankarakrishnan](mailto:rgomathi@iu.edu)
 
-##### License
+#####  References
+
+Some material in project notebooks has been adopted
+from [here](https://www.kaggle.com/willkoehrsen/start-here-a-gentle-introduction/notebook)
+
+---
+
+
+##### TODO: Predicting Loan Repayment with Automated Feature Engineering in Featuretools
+
+* Feature engineering  [paper](https://dai.lids.mit.edu/wp-content/uploads/2017/10/DSAA_DSM_2015.pdf) and [this](https://www.analyticsvidhya.com/blog/2017/08/catboost-automated-categorical-data/)
+* Feature engineering via [Featuretools library](https://github.com/Featuretools/predict-loan-repayment/blob/master/Automated%20Loan%20Repayment.ipynb) and [here](https://www.analyticsvidhya.com/blog/2018/08/guide-automated-feature-engineering-featuretools-python/)
+
+###### License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 for details
+
+
+[contributors-shield]: https://img.shields.io/github/contributors/kiran-karandikar/AML-Home-Credit-Default-Risk?style=for-the-badge
+
+[contributors-url]: https://github.com/Kiran-Karandikar/AML-Home-Credit-Default-Risk/graphs/contributors
+
+[forks-shield]: https://img.shields.io/github/forks/Kiran-Karandikar/AML-Home-Credit-Default-Risk?style=for-the-badge
+
+[forks-url]: https://github.com/Kiran-Karandikar/AML-Home-Credit-Default-Risk/network
+
+[stars-shield]: https://img.shields.io/github/stars/Kiran-Karandikar/AML-Home-Credit-Default-Risk?style=for-the-badge
+
+[stars-url]: https://github.com/Kiran-Karandikar/AML-Home-Credit-Default-Risk/stargazers
+
+[issues-shield]: https://img.shields.io/github/issues/Kiran-Karandikar/AML-Home-Credit-Default-Risk?style=for-the-badge
+
+[issues-url]: https://github.com/Kiran-Karandikar/AML-Home-Credit-Default-Risk/issues
+
+[license-shield]: https://img.shields.io/github/license/Kiran-Karandikar/AML-Home-Credit-Default-Risk?style=for-the-badge
+
+[license-url]: https://github.com/Kiran-Karandikar/AML-Home-Credit-Default-Risk/blob/master/LICENSE
+
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+
+[linkedin-url]: https://linkedin.com/in/kiran-karandikar
