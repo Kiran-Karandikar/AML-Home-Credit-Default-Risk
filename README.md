@@ -74,7 +74,6 @@ As part of the data download comes a  Data Dictionary. It named `HomeCredit_colu
 ![Data Dictionary](assets/home_credit.png)
 
 
-
 ### Built With
 
 * [Jupyter Notebook](http://jupyter.org/) - Project Jupiter exists to develop open-source software, open standards, and services for interactive computing across dozens of programming languages.
@@ -82,15 +81,22 @@ As part of the data download comes a  Data Dictionary. It named `HomeCredit_colu
 * [Pandas](https://pandas.pydata.org/) - pandas is an open-source, BSD-licensed library providing high-performance, easy-to-use data structures, and data analysis tools for the Python programming language.
 * [Google Collab](https://colab.research.google.com) - a free Jupiter notebook environment that runs entirely in the cloud.
 
-#### License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
-
-##### In association with:
-  - [Sathish Soundararajan](mailto:satsoun@iu.edu)
-  - [Yashwitha Reddy Pondugala](mailto:ypondug@iu.edu)
-  - [Rahul Gomathi Sankarakrishnan](mailto:rgomathi@iu.edu)
+### Extras
 
 > Designed with passion as part of the curriculum for the course CSCIP 556 - Applied Machine Learning in the spring of 2022 in four phases.
-
 ![Canvas Course](assets/MachineLearningHeader.jpg)
+
+#### Project Timeline:
+
+![Project Timeline](assets/project-timeline.png)
+ 
+#### In association with:
+
+- [Sathish Soundararajan](mailto:satsoun@iu.edu)
+- [Yashwitha Reddy Pondugala](mailto:ypondug@iu.edu)
+- [Rahul Gomathi Sankarakrishnan](mailto:rgomathi@iu.edu)
+
+##### License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
+for details
