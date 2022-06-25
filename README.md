@@ -159,6 +159,7 @@ for details
 
 
 
+
 ### Other projects
 
 Check out the other stuff I've worked upon.
@@ -176,6 +177,7 @@ Check out the other stuff I've worked upon.
   - **flask-oauth2-wrike-api** : [A sample Flask app to authenticate with Wrike as a third-party OAuth2 provider.](https://github.com/Kiran-Karandikar/flask-oauth2-wrike-api)
 
 > Section `Other projects` is auto-updated using [Github actions](https://github.com/features/actions). 
+<!-- CONTACT -->
+## Contact
 
-
-##### Connect with me: [khkarandikar at gmail dot com](mailto:khkarandikar@gmail.com)
+- [Kiran Karandikar: khkarandikar at gmail dot com](mailto:khkarandikar@gmail.com)
