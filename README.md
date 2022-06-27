@@ -1,4 +1,60 @@
+<div id="top"></div>
+
 [![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+[contributors-shield]: https://img.shields.io/github/contributors/kiran-karandikar/AML-Home-Credit-Default-Risk?style=for-the-badge
+
+[contributors-url]: https://github.com/Kiran-Karandikar/AML-Home-Credit-Default-Risk/graphs/contributors
+
+[forks-shield]: https://img.shields.io/github/forks/Kiran-Karandikar/AML-Home-Credit-Default-Risk?style=for-the-badge
+
+[forks-url]: https://github.com/Kiran-Karandikar/AML-Home-Credit-Default-Risk/network
+
+[stars-shield]: https://img.shields.io/github/stars/Kiran-Karandikar/AML-Home-Credit-Default-Risk?style=for-the-badge
+
+[stars-url]: https://github.com/Kiran-Karandikar/AML-Home-Credit-Default-Risk/stargazers
+
+[issues-shield]: https://img.shields.io/github/issues/Kiran-Karandikar/AML-Home-Credit-Default-Risk?style=for-the-badge
+
+[issues-url]: https://github.com/Kiran-Karandikar/AML-Home-Credit-Default-Risk/issues
+
+[license-shield]: https://img.shields.io/github/license/Kiran-Karandikar/AML-Home-Credit-Default-Risk?style=for-the-badge
+
+[license-url]: https://github.com/Kiran-Karandikar/AML-Home-Credit-Default-Risk/blob/master/LICENSE
+
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+
+[linkedin-url]: https://linkedin.com/in/kiran-karandikar
+
+---------
+
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+<h3 align="center">AML-Home-Credit-Default-Risk</h3>
+  <p align="center">
+    Predicting how capable each applicant is of repaying a loan (Kaggle Challenge).    
+    <br />    
+    <a href="https://kiran-karandikar.github.io/AML-Home-Credit-Default-Risk"><strong>Preview</strong></a>
+    <br />
+    <a href="https://github.com/kiran-karandikar/AML-Home-Credit-Default-Risk"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/kiran-karandikar/AML-Home-Credit-Default-Risk">View Demo</a>
+    ·
+    <a href="https://github.com/kiran-karandikar/AML-Home-Credit-Default-Risk/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/kiran-karandikar/AML-Home-Credit-Default-Risk/issues">Request Feature</a>
+  </p>
+</div>
+
+<!-- BADGES.MD Finish -->[![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
@@ -162,6 +218,7 @@ for details
 
 
 
+
 ### Other projects
 
 Check out the other stuff I've worked upon.
@@ -183,3 +240,4 @@ Check out the other stuff I've worked upon.
 ## Contact
 
 - [Kiran Karandikar: khkarandikar at gmail dot com](mailto:khkarandikar@gmail.com)
+$
