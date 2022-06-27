@@ -56,6 +56,8 @@
 
 <!-- BADGES.MD Finish -->
 
+<!-- BADGES.MD Finish -->
+
 ---
 
 
@@ -177,6 +179,7 @@ from [here](https://www.kaggle.com/willkoehrsen/start-here-a-gentle-introduction
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 for details
 
+
 ### Other projects
 
 Check out the other stuff I've worked upon.
@@ -198,3 +201,4 @@ Check out the other stuff I've worked upon.
 ## Contact
 
 - [Kiran Karandikar: khkarandikar at gmail dot com](mailto:khkarandikar@gmail.com)
+$
