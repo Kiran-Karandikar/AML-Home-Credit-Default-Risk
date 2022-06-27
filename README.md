@@ -54,6 +54,8 @@
   </p>
 </div>
 
+<!-- BADGES.MD Finish -->
+
 <!-- BADGES.MD Finish -->[![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -206,6 +208,7 @@ for details
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 
 [linkedin-url]: https://linkedin.com/in/kiran-karandikar
+
 
 
 
