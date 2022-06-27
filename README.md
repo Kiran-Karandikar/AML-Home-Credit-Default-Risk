@@ -56,13 +56,6 @@
 
 <!-- BADGES.MD Finish -->
 
-<!-- BADGES.MD Finish -->[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
 ---
 
 
@@ -184,44 +177,6 @@ from [here](https://www.kaggle.com/willkoehrsen/start-here-a-gentle-introduction
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 for details
 
-
-[contributors-shield]: https://img.shields.io/github/contributors/kiran-karandikar/AML-Home-Credit-Default-Risk?style=for-the-badge
-
-[contributors-url]: https://github.com/Kiran-Karandikar/AML-Home-Credit-Default-Risk/graphs/contributors
-
-[forks-shield]: https://img.shields.io/github/forks/Kiran-Karandikar/AML-Home-Credit-Default-Risk?style=for-the-badge
-
-[forks-url]: https://github.com/Kiran-Karandikar/AML-Home-Credit-Default-Risk/network
-
-[stars-shield]: https://img.shields.io/github/stars/Kiran-Karandikar/AML-Home-Credit-Default-Risk?style=for-the-badge
-
-[stars-url]: https://github.com/Kiran-Karandikar/AML-Home-Credit-Default-Risk/stargazers
-
-[issues-shield]: https://img.shields.io/github/issues/Kiran-Karandikar/AML-Home-Credit-Default-Risk?style=for-the-badge
-
-[issues-url]: https://github.com/Kiran-Karandikar/AML-Home-Credit-Default-Risk/issues
-
-[license-shield]: https://img.shields.io/github/license/Kiran-Karandikar/AML-Home-Credit-Default-Risk?style=for-the-badge
-
-[license-url]: https://github.com/Kiran-Karandikar/AML-Home-Credit-Default-Risk/blob/master/LICENSE
-
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-
-[linkedin-url]: https://linkedin.com/in/kiran-karandikar
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### Other projects
 
 Check out the other stuff I've worked upon.
@@ -243,4 +198,3 @@ Check out the other stuff I've worked upon.
 ## Contact
 
 - [Kiran Karandikar: khkarandikar at gmail dot com](mailto:khkarandikar@gmail.com)
-$
